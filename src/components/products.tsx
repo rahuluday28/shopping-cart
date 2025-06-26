@@ -31,7 +31,7 @@ export default function Products() {
               <img src={item.image} alt={item.name} className="product-image" />
               <div data-testid={`product-name-${item.id}`}>{item.name}</div>
               <div data-testid={`product-price-${item.id}`}>
-                {formatCurrency(item.price)}
+                {formatCurrency(item.price1)}
               </div>
               <button
                 className="button add-to-cart"
