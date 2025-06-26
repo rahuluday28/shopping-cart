@@ -27,6 +27,7 @@ export default function Cart() {
             <th className="col">Item</th>
             <th className="col">Unit Cost</th>
             <th className="col">Total Cost</th>
+            <th className="col">Total Cost</th>
           </tr>
         </thead>
         <tbody>
