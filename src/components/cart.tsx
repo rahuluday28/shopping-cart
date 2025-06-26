@@ -44,7 +44,7 @@ export default function Cart() {
                 <tr
                   key={product.id}
                   id={"" + product.id}
-                  data-testid={`item-${product.id}`}
+               //   data-testid={`item-${product.id}`}
                 >
                   <td className="col">
                     {item.quantity} {product.name}
